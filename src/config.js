@@ -134,6 +134,14 @@ module.exports = function() {
         processCssUrls: true,
 
         /**
+         * Specify which engine to use for resolve-url-loader
+         *  Only applies if processCssUrls is true
+         * 'rework' is legacy setting, 'postcss' allows
+	 * mix with sass + tailwind
+         */
+        resolveUrlLoaderEngine: 'rework',
+
+        /**
          * Should we extract .vue component styles into a dedicated file?
          * You may provide a boolean, or a dedicated path to extract to.
          *

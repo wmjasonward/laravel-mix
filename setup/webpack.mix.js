@@ -46,6 +46,7 @@ mix.js('src/app.js', 'dist/').sass('src/app.scss', 'dist/');
 //   extractVueStyles: false, // Extract .vue component styling to file, rather than inline.
 //   globalVueStyles: file, // Variables file to be imported in every component.
 //   processCssUrls: true, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+//   resolveUrlLoaderEngine: 'postcss', // Use postcss for more modern css, or rework if migrating
 //   purifyCss: false, // Remove unused CSS selectors.
 //   terser: {}, // Terser-specific options. https://github.com/webpack-contrib/terser-webpack-plugin#options
 //   postCss: [] // Post-CSS options: https://github.com/postcss/postcss/blob/master/docs/plugins.md

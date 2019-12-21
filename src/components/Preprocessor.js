@@ -76,7 +76,7 @@ class Preprocessor {
                         loader: 'resolve-url-loader',
                         options: {
                             sourceMap: true,
-                            engine: 'postcss'
+                            engine: Config.resolveUrlLoaderEngine
                         }
                     });
                 }
